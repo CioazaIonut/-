@@ -33,3 +33,29 @@ console.log(c !== d);
 let arr1 = [1, 2, 3];
 let arr2 = [1, 2, 3];
 console.log(arr1 !== arr2);
+
+// Compară două numere diferite:
+
+let unu = 8;
+let doi = 12;
+console.log(unu !== doi);
+
+// Compară două string-uri diferite:
+
+let mesajUnu = "Salut";
+let mesajDoi = "Bună";
+console.log(mesajUnu !== mesajDoi);
+
+// Compară un număr și un string cu aceeași valoare:
+
+let numar = 5;
+let string = "5";
+console.log(numar !== string);
+
+// Compară valori boolean:
+
+let booleanUnu = true;
+let booleanDoi = false;
+console.log(booleanUnu !== booleanDoi);
+
+// Compară null cu undefined:
